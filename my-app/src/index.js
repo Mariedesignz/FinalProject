@@ -29,3 +29,6 @@ function search_terms() {
     }
   }
 }
+let investments = ['Acorns','Robin Hood','Stash']
+
+console.log(investments)
