@@ -22,3 +22,4 @@ function keep_alive() {
     return false; 
     }
 }}};
+//start of defintions for financial literacy//

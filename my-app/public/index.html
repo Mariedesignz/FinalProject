@@ -24,15 +24,33 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>s
-    
+    <title>React App</title>
+    <title>
+      Creating a Search Bar using HTML CSS and javascript
+    </title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
+  
     <h1 style="color:darkgreen">Fiancial Literacy 101</h1>
     <h2 style="color:lightgreen"> Your Roadmap to Fiancial Freedom!</h2>
-    <img src="C:\Users\mrs. judkins\Documents\javascript\Tuesdayprocl\micheile-henderson-lZ_4nPFKcV8-unsplash (2).jpg" alt="Money" height="500" width="500">
+   
+    <img src="C:\Users\mrs. judkins\Documents\javascript\Tuesdayprocl\photo-money.jpg" alt="coins" class="center">
     
-    
+    <input id="searchbar" onkeyup="seacrh_terms()" type="text"
+        name="search" placeholder="Search terms..">
+<ol id='list'>
+        <li class="terms">Budget</li>
+        <li class="terms">SMART Goals</li>
+        <li class="terms">APR</li>
+        <li class="terms">FICO</li>
+        <li class="terms">Liquid Assets</li>
+        <li class="terms">Credit Counsling</li>
+        <li class="terms">Debt Management Plan</li>
+        <li class="terms">Annuity</li>
+      </ol>
+      <script src="./terms.js"></script>
+
     <div id="root"></div>
     <div id="ticker">
     <span>Stock Quotes:</span>
