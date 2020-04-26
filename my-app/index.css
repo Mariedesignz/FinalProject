@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ticker-wrap {
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  background-color: rgba(#000, 0.9); 
+  padding-left: 100%;
+  box-sizing: content-box;
+
+  
+
+    }
+
+  /* This is the code to make my app divice frindly for mobile or desktop.*/
+  @media screen and (max-divice-width: 640px){
+
+  }
+  /* For Tablets in Portait of landscape */
+@media screen and (min-device-width: 768px) and (max-divice-width: 1024px)
+
+/* Desktops*/
+@media screen and (min-width: 1024px);
+
+body { padding-bottom: 5rem; }
+h1,h2,p {padding: 0 5%;}
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+#submit_button {
+  background-color: #B22222;
+  height: 30px;
+  width: 20%;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+input, textarea {
+  background-color: #d3d3d3;
+  color: #2f2f2f;
+  width: 250px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px 2px #696969;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+  
+
+#searchbar{
+  margin-left: 15%;
+  padding: 15px;
+  border-radius: 10px;
+}
+input [type=text] {
+  width: 60%;
+  -webkit-transition: width 0.15s ease-in-out ;
+}
+
+/*when the input field gets focus, change its width to 100% */
+input [type=text] :focus {
+  width: 70%;
+  
+}
+
+#list {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
+
+.terms{
+  display: list-item;
+}
+ img {
+   max-width: 100%;
+   height: auto;
+ }
