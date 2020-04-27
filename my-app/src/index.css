@@ -51,10 +51,15 @@ body {
 
     }
 
-  
+  /* This is the code to make my app divice frindly for mobile or desktop.*/
+  @media screen and (max-divice-width: 640px){
 
+  }
+  /* For Tablets in Portait of landscape */
+@media screen and (min-device-width: 768px) and (max-divice-width: 1024px)
 
-
+/* Desktops*/
+@media screen and (min-width: 1024px);
 
 body { padding-bottom: 5rem; }
 h1,h2,p {padding: 0 5%;}
@@ -108,3 +113,7 @@ input [type=text] :focus {
 .terms{
   display: list-item;
 }
+ img {
+   max-width: 100%;
+   height: auto;
+ }

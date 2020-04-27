@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+let investments = ['Acorns','Robin Hood','Stash']
+Object.onclick = function(){myscript};S
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -29,6 +31,6 @@ function search_terms() {
     }
   }
 }
-let investments = ['Acorns','Robin Hood','Stash']
+
 
 console.log(investments)
