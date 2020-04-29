@@ -9,12 +9,14 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+   
   
     <title>React App</title>
     <title>
@@ -23,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
+    
   <div style="background-color: rgb(206, 247, 206);">
     <h1 style="color:darkgreen">Fiancial Literacy 101</h1>
     <h2 style="color:rgb(21, 114, 21)"> Your Roadmap to Fiancial Freedom!</h2>
@@ -33,7 +36,8 @@
   
     <input id="searchbar" onkeyup="seacrh_terms()" type="text"
         name="search" placeholder="Search terms..">
-        
+        <button onClick="search()">search</button>
+        <div id="definition"></div>
 <ol id='list'>
         <li class="terms">Budget</li>
         <li class="terms">SMART Goals</li>
@@ -92,6 +96,29 @@
  <input id="submit_button" type="submit" value="Send email" />
 </form>
 
+
+<script>
+ 
+
+
+
+  
+  function search()
+ 
+ { 
+   var wordtosearch = document.getElementById("searchbar").value;
+  axios.get('https://dictionaryapi.com/api/v3/references/sd3/json/'+ wordtosearch +'?key=d12cfa5d-ee3f-4023-93c6-0a61afd5a83a')
+    .then(function (response) {
+      document.getElementById("definition").innerHTML = response.data[0].shortdef; 
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    })
+    .then(function () {
+      // always executed
+    }); }
+</script>
   </body>
 </html>
 
