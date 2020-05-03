@@ -74,6 +74,7 @@
   document.getElementById("investments").innerHTML=Investments;
 
 </script>
+<!--the form is supposed to email questions vistors may have and was not able find on the app.--> 
 
 <div id="after_submit"></div>
 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
@@ -104,7 +105,7 @@
 
   
   function search()
- 
+ // Put in a financial word and the api will return the defintion//
  { 
    var wordtosearch = document.getElementById("searchbar").value;
   axios.get('https://dictionaryapi.com/api/v3/references/sd3/json/'+ wordtosearch +'?key=d12cfa5d-ee3f-4023-93c6-0a61afd5a83a')

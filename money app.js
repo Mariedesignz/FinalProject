@@ -6,7 +6,7 @@ class App extends Component{
         import('https://www.dictionaryapi.com/api/v3/references/collegiate/json/debt?key=d12cfa5d-ee3f-4023-93c6-0a61afd5a83a'
     }
 }
-// start of my stock ticker code //
+// start of my api code //
 function keep_alive() {
     xmlhttp = new XMLHttpRequest(https://www.dictionaryapi.com/api/v1/references/collegiate/xml/voluminous?key=d12cfa5d-ee3f-4023-93c6-0a61afd5a83a);
     xmlhttp.open(`GET`,"./index.html");
@@ -22,4 +22,4 @@ function keep_alive() {
     return false; 
     }
 }}};
-//start of defintions for financial literacy//
+

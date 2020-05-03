@@ -35,7 +35,7 @@ body {
     transform: translate3d(-100%, 0, 0);
   }
 }
-
+/* css for stock ticker. Couldn't figure out make it run*/
 .ticker-wrap {
   
   position: fixed;
@@ -88,7 +88,7 @@ input, textarea {
  
 }
   
-
+/* css for search bar*/
 #searchbar{
   margin-left: 15%;
   padding: 15px;
