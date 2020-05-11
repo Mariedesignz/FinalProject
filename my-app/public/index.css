@@ -56,31 +56,17 @@ body {
 
   }
   /* For Tablets in Portait of landscape */
-@media screen and (min-device-width: 768px) and (max-divice-width: 1024px)
+@media screen and (min-device-width: 768px) and (max-divice-width: 1024px){
+
+}
 
 /* Desktops*/
-@media screen and (min-width: 1024px);
 
-body { padding-bottom: 5rem; }
-h1,h2,p {padding: 0 5%;}
-label {
-  font-weight: bold;
-  font-size: 16px;
-}
-#submit_button {
-  background-color: #B22222;
-  height: 30px;
-  width: 20%;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-input, textarea {
-  background-color: #d3d3d3;
-  color: #2f2f2f;
-  width: 250px;
-  margin-bottom: 10px;
-  box-shadow: 5px 5px 2px 2px #696969;
-}
+@media only screen and (min-width: 1024px){
+
+} 
+
+
 .center {
   display: block;
   margin-left: auto;
@@ -96,7 +82,7 @@ input, textarea {
 }
 input [type=text] {
   width: 60%;
-  -webkit-transition: width 0.15s ease-in-out ;
+ 
 }
 
 /*when the input field gets focus, change its width to 100% */
@@ -117,3 +103,5 @@ input [type=text] :focus {
    max-width: 100%;
    height: auto;
  }
+ 
+ 

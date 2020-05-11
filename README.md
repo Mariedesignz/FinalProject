@@ -1,5 +1,5 @@
 # FinalProject
-CodeLouisville Fiinal JAvascript ptoject
+CodeLouisville Fiinal Javascript ptoject
 I built a financial literacy app where users can look upm financial terms and get a return definition. Thes tock ticker was supposed to return real time stock information and I have yet to figure out how to make it work.
 System requirements: JavaScript google chrome
 Form is for app users to as k question and get more information via email. Have yet to figure out the php to make it fully functional.
