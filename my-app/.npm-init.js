@@ -1,0 +1,1 @@
+module.exports = prompt("what's your favorite investing app?", "I LIKE THEM ALL");
